@@ -3,7 +3,6 @@
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 import { ExternalLink, Github, Brain, Cpu, Code, Database, Zap, Sparkles } from 'lucide-react';
-import { projects } from '@/data/projects';
 
 interface ProjectsSectionProps {
   className?: string;
@@ -316,14 +315,14 @@ const ProjectsSection: React.FC<ProjectsSectionProps> = ({ className = "" }) => 
             <Sparkles className="w-12 h-12 text-premium-glow mx-auto mb-6" />
             <h3 className="text-3xl font-bold text-premium-glow mb-4">Ready to Build Something Amazing?</h3>
             <p className="text-white/70 text-lg mb-8 max-w-2xl mx-auto">
-              Let's collaborate on cutting-edge AI projects that push the boundaries of what's possible.
+              Let&apos;s collaborate on cutting-edge AI projects that push the boundaries of what&apos;s possible.
             </p>
             <motion.button
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
               className="btn-premium px-10 py-4 rounded-xl font-bold text-lg hover-premium-strong"
             >
-              Let's Start Building
+              Let&apos;s Start Building
             </motion.button>
           </div>
         </motion.div>

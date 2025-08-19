@@ -3,7 +3,6 @@
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 import { Brain, Cpu, Code, Database, Cloud, Zap, Sparkles } from 'lucide-react';
-import { skills } from '@/data/skills';
 
 interface SkillsSectionProps {
   className?: string;

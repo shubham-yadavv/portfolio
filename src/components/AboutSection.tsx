@@ -185,10 +185,10 @@ const AboutSection: React.FC<AboutSectionProps> = ({ className = "" }) => {
             </motion.div>
             <h3 className="text-2xl font-semibold text-white mb-4">My AI Philosophy</h3>
             <p className="text-gray-300 leading-relaxed text-lg max-w-3xl mx-auto">
-              "I believe that artificial intelligence should augment human capabilities, not replace them. 
+              &ldquo;I believe that artificial intelligence should augment human capabilities, not replace them. 
               My approach focuses on creating AI solutions that are ethical, transparent, and genuinely useful 
               in solving real-world problems. Every AI system I build is designed with human-centered principles 
-              and responsible AI practices."
+              and responsible AI practices.&rdquo;
             </p>
           </div>
         </motion.div>

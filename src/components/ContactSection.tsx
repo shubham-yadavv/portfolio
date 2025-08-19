@@ -89,8 +89,8 @@ const ContactSection: React.FC<ContactSectionProps> = ({ className = "" }) => {
           </h2>
           <div className="w-32 h-1 bg-gradient-to-r from-transparent via-white/30 to-transparent mx-auto mb-8"></div>
           <p className="text-xl text-white/70 max-w-3xl mx-auto leading-relaxed">
-            I'm always interested in hearing about new opportunities and exciting projects. 
-            Let's build something amazing together.
+            I&apos;m always interested in hearing about new opportunities and exciting projects. 
+            Let&apos;s build something amazing together.
           </p>
         </motion.div>
         
@@ -102,7 +102,7 @@ const ContactSection: React.FC<ContactSectionProps> = ({ className = "" }) => {
             transition={{ duration: 0.8, delay: 0.2 }}
             className="space-y-8"
           >
-            <h3 className="text-3xl font-bold text-premium-glow">Let's Connect</h3>
+            <h3 className="text-3xl font-bold text-premium-glow">Let&apos;s Connect</h3>
             
             {/* Contact Items */}
             <div className="space-y-6">
