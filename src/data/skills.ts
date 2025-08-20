@@ -6,10 +6,9 @@ export interface Skill {
 }
 
 export const skills: Skill[] = [
-  { name: "React", level: 90, color: "#61DAFB", category: "frontend" },
+  { name: "FastAPI", level: 90, color: "#61DAFB", category: "backend" },
   { name: "TypeScript", level: 85, color: "#3178C6", category: "frontend" },
-  { name: "Next.js", level: 88, color: "#000000", category: "frontend" },
-  { name: "Tailwind CSS", level: 92, color: "#06B6D4", category: "frontend" },
+  { name: "LangChain", level: 92, color: "#06B6D4", category: "frontend" },
   { name: "Node.js", level: 80, color: "#339933", category: "backend" },
   { name: "Python", level: 75, color: "#3776AB", category: "backend" },
   { name: "PostgreSQL", level: 70, color: "#336791", category: "backend" },
